@@ -1,0 +1,59 @@
+.navbar-nav a{
+    font-size: 20px;
+    font-weight: 500;
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color: red !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    
+}
+
+.navbar-bootstrap{
+    background-color: black !important;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 6px rgb(58, 57, 57);
+}
+
+
+.toggler-icon{
+    color: white !important;
+    font-size: 30px;
+    font-weight: 600;
+    border: transparent;
+
+
+}
+
+.btn{
+    outline: none;
+    border: 3px solid white;
+
+    font-weight: 500 ;
+    
+}
+
+.btn:hover{
+    /* border: none; */
+    background-image: linear-gradient(to left , hotpink , orange ) !important;
+
+}
+.btn-close{
+    color: white !important;
+    font-size: 30px;
+    font-weight: 600;
+    border: 1px solid black !important;
+}
+
+.btn-close:hover{
+    border:none;
+    outline: none;
+    border: 1px solid black !important;
+
+
+}

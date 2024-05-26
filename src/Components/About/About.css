@@ -1,0 +1,82 @@
+.about .progress-bar-html{
+    width: 90%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
+}
+.about .progress-bar-js{
+    width: 80%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
+}
+.about .progress-bar-react{
+    width: 75%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
+}
+.about .progress-bar-next{
+    width: 60%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
+   }
+
+.about .progress{
+height: 20px;
+}
+
+.about h6{
+     display:grid;
+     gap: 10px;
+}
+
+.about h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.about img{
+    height: 410px;
+    border-radius: 15px;
+    box-shadow: -3px 3px 10px white;
+}
+
+.about-second p{
+font-size: 25px;
+font-weight: 600;
+}
+.about-second {
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffffb2,  
+    3px 3px 5px rgba(94, 104, 121, 0.945);
+
+}
+
+.about-second h6{
+font-size: 45px;
+font-weight: 600;
+background-clip: text;
+color: transparent;
+background-image: linear-gradient(to right,orange,red , yellow , pink);
+}
+
+.about p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+@media screen and (max-width: 1192px) {
+    .about img{
+    margin-top: 15px;
+    margin-bottom: 40px;
+           }
+    
+  }

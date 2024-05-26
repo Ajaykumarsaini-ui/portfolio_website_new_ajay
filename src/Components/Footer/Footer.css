@@ -1,0 +1,49 @@
+.footer p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+.footer{
+    box-shadow: -3px -3px 7px #ffffffb2,  
+        3px 3px 5px rgba(94, 104, 121, 0.945);
+
+    background-color: rgb(54, 53, 53);
+
+}
+
+.footer-first{
+
+    border-bottom: 2px solid white;
+}
+
+.input-group-text{
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.input-group input{
+    font-weight: 600;
+    height: 45px;
+    font-size: 20px;
+    color: black;
+}
+
+.input-group{
+    margin-top: 35px !important;
+}
+
+.footer-second li{
+    list-style: none;
+
+}
+
+.footer-second ul{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
