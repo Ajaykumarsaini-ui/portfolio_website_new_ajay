@@ -1,31 +1,38 @@
 .mywork-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    /* grid-template-rows: repeat(2,1fr); */
     row-gap: 20px;
     column-gap: 20px;
-    box-shadow: -3px -3px 7px #ffffffb2,  
-        3px 3px 5px rgba(94, 104, 121, 0.945);
+    box-shadow: -1px -1px 3px #ffffffb2,  
+        1px 1px 3px rgba(94, 104, 121, 0.945);
 
 }
 
 .mywork-img{
-    box-shadow: -3px -3px 7px #ffffffb2,  
-     inset   3px 3px 5px rgba(94, 104, 121, 0.945);
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+    box-shadow: -1px -1px 3px #ffffffb2,  
+     inset   1px 1px 3px rgba(94, 104, 121, 0.945);
      
 }
 
 .mywork-img:hover{
     transform: scale(1.05);
     transition: all 0.6s ease-in-out;
+    z-index: 1;
 
 }
 
 .mywork-title h1{
-    font-size: 55px;
-    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: 600;
     padding-left: 4px;
 }
+
+
 
 /* .mywork-container img{ */
     /* max-height: 200px; */

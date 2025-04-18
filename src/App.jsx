@@ -1,25 +1,22 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import About from './Components/About/About'
-import Services from './Components/Services/Services'
-import MyWork from './Components/MyWork/MyWork'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
+  import React, { useState } from "react";
+  import Navbar from "./Components/Navbar/Navbar";
+  
+  import "./App.css";
+import Approute from "./Approute/Approute";
 
-const App = () => {
-  return (
-    <div>
-      < Navbar/>
-       <Hero/>
-       <About/>
-       <Services/>
-       <MyWork />
-       <Contact/>
-       <Footer/>
-      
-    </div>
-  )
-}
+  const App = () => {
+    const [toggletheme, settoggletheme] = useState(false);
+    const toggleTheme = () => {
+      settoggletheme(!toggletheme);
+    };
 
-export default App
+    return (
+      <div className={`${toggletheme ? "light-theme" : "dark-theme"}`}>
+        <Navbar toggleTheme={toggleTheme} />
+        <Approute/>
+        
+      </div>
+    );
+  };
+
+  export default App;

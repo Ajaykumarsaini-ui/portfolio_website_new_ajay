@@ -1,50 +1,67 @@
 .contact h1{
-    font-size: 55px;
-    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
+.span{
+    color: hotpink;
+    position: relative;
+    
+}
+.span::before {
+    content: '';
+    background-color: hotpink;
+    height: 2px;
+    width: 100%;  /* Define width */
+    position: absolute;
+    top: 0;  /* Position inside .span */
+    left: 0;
+    z-index: 2;
+    transition: background-color 0.5s ease-in-out;
+    display: block;  /* Ensures visibility */
+}
+
+
+
+
 .contact h2{
-    font-size: 47px;
+    font-size: clamp(0.9rem, 3vw, 1.7rem);
     font-weight: 700;
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to left, hotpink , royalblue , yellow );
 }
 .contact-main-para{
-    font-size: 23px;
+    font-size: clamp(0.7rem, 2.3vw, 0.9rem);
     font-weight: 500;
-    line-height: 25px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 label{
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 28px;
-    padding-bottom: 10px;
+    font-size:clamp(0.7rem, 2.3vw, 0.9rem);
+    font-weight: 500;
+    padding-bottom: 4px;
 }
 
 input{
-    font-size: 23px !important;
-    font-weight: 600 !important;
-    height:40px ;
+    font-size:15px !important;
+    font-weight: 500 !important;
      width: 100%;
      text-transform: capitalize !important;
-     padding-inline: 10px !important;
+     /* padding-inline: 10px !important; */
     }
     
     textarea{
         width: 100%;
-        height: 100px;
-        font-size: 23px !important;
-        font-weight: 600 !important;
+        height: 80px;
+        font-size: 15px !important;
+        font-weight: 500 !important;
         text-transform: capitalize !important;
-        padding-inline: 10px !important;
+        /* padding-inline: 10px !important; */
 
 }
 .contact p{
-    font-size: 18px;
-    font-weight: 600;
+    font-size:clamp(0.7rem, 2.3vw, 0.9rem);
+    font-weight: 400;
 }
 
 .contact span i{
@@ -54,10 +71,10 @@ input{
 .contact i:hover{
     cursor: pointer;
     color: aqua;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact .btn{
-    font-size: 18px;
-    margin-block: 10px;
+    font-size:clamp(0.7rem, 2.1vw, 0.9rem);
+    /* margin-block: 10px; */
 }
