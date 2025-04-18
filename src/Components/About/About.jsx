@@ -7,28 +7,33 @@ const About = () => {
   <div>
     
     <div id='About' className='about container'>
-      <h1 className='py-5 text-center'>About me</h1>
+      <h1 className='py-5 text-center'><span className='span'>About</span> me</h1>
       <div className="row">
         <div className="col-lg-4 text-center">
           <img src={quality_education_2} alt="" />
         </div>
         <div className="col-lg-8">
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quam reiciendis accusantium eligendi neque, similique magni nulla alias aliquid placeat consectetur, voluptatum veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, iusto! <br /> <br /> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, praesentium. Provident dolorum illum.</p></p>
+<p>Welcome to DevCraft Solutions, where we turn ideas into powerful web experiences! We specialize in frontend development, API integration, and UI/UX design, helping businesses build fast, user-friendly, and scalable web applications. <br /> <br /> At DevCraft Solutions, we are passionate web developers who create high-quality digital solutions using modern technologies like Next.js, React.js, JavaScript, Vite, Zustand, SCSS, Framer-motion , Tailwind, and Bootstrap. Whether it’s an e-commerce platform, a news website, an event management system, or a custom dashboard, we deliver seamless and engaging web experiences.
 
-<h6>HTML&CSS&BOOTSTRAP  <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar progress-bar-html progress-bar-striped progress-bar-animated">90%</div>
+
+
+</p>
+
+
+<h6 className='about-skills'>HTML & CSS & BOOTSTRAP & Tailwind & Api Integration  <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar progress-bar-html progress-bar-striped progress-bar-animated">95%</div>
 </div></span> </h6>
 
-<h6>JAVASCRIPT <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar progress-bar-js progress-bar-striped progress-bar-animated">80%</div>
+<h6 className='about-skills' >JAVASCRIPT <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar progress-bar-js progress-bar-striped progress-bar-animated">90%</div>
 </div></span> </h6>
 
-<h6> REACT JS<span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar progress-bar-react progress-bar-striped progress-bar-animated">75%</div>
+<h6 className='about-skills' > REACT JS<span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar progress-bar-react progress-bar-striped progress-bar-animated">85%</div>
 </div></span> </h6>
 
-<h6>NEXT JS  <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar progress-bar-next progress-bar-striped progress-bar-animated">60%</div>
+<h6 className='about-skills' >NEXT JS  <span> <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar progress-bar-next progress-bar-striped progress-bar-animated">80%</div>
 </div></span> </h6>
 
 

@@ -1,34 +1,54 @@
 .about .progress-bar-html{
-    width: 90%;
+    width: 95%;
     color: black;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 500;
     background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
 }
+
+.span{
+    color: hotpink;
+    position: relative;
+    
+}
+.span::before {
+    content: '';
+    background-color: hotpink;
+    height: 2px;
+    width: 100%;  /* Define width */
+    position: absolute;
+    top: 0;  /* Position inside .span */
+    left: 0;
+    z-index: 2;
+    transition: background-color 0.5s ease-in-out;
+    display: block;  /* Ensures visibility */
+}
+
+
 .about .progress-bar-js{
-    width: 80%;
+    width: 90%;
     color: black;
-    font-size: 18px;
-    font-weight: 700;
+    font-size:clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 500;
     background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
 }
 .about .progress-bar-react{
-    width: 75%;
+    width: 85%;
     color: black;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 500;
     background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
 }
 .about .progress-bar-next{
-    width: 60%;
+    width: 80%;
     color: black;
-    font-size: 18px;
-    font-weight: 700;
+    font-size:clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 500;
     background-image: linear-gradient(to left , hotpink,orange ,pink,yellow,red);
    }
 
 .about .progress{
-height: 20px;
+height: 13px;
 }
 
 .about h6{
@@ -36,31 +56,38 @@ height: 20px;
      gap: 10px;
 }
 
+.about-skills{
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    font-weight: 400;
+}
+
 .about h1{
-    font-size: 55px;
-    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: 600;
 }
 
 .about img{
-    height: 410px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
-    box-shadow: -3px 3px 10px white;
+    filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.5));
 }
 
 .about-second p{
-font-size: 25px;
-font-weight: 600;
+    font-size:clamp(0.7rem, 2.5vw, 0.9rem);
+    font-weight: 400;
+
 }
 .about-second {
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20px;
-    box-shadow: -3px -3px 7px #ffffffb2,  
-    3px 3px 5px rgba(94, 104, 121, 0.945);
+    box-shadow: -1px -1px 3px #ffffffb2,  
+    1px 1px 3px rgba(94, 104, 121, 0.945);
 
 }
 
 .about-second h6{
-font-size: 45px;
+font-size: clamp(0.7rem, 2vw, 0.9rem);
 font-weight: 600;
 background-clip: text;
 color: transparent;
@@ -68,9 +95,9 @@ background-image: linear-gradient(to right,orange,red , yellow , pink);
 }
 
 .about p{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
+    font-size:clamp(0.7rem, 2.0vw, 0.9rem);
+    font-weight: 400;
+
 }
 
 @media screen and (max-width: 1192px) {

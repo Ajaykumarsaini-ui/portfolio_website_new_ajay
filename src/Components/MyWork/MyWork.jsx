@@ -1,12 +1,15 @@
 import React from 'react'
 import "./MyWork.css"
 import mywork_data from '../../assets/mywork_data'
+import FadeInOnScroll from '../../Gsap/FadeInOnScroll'
 
 const MyWork = () => {
   return (
+    
     <div id='Mywork' className='mywork container'>
         <div className="mywork-title py-4">
-            <h1 className='text-center py-3'>My Latest work</h1>
+        <h1 className='text-center my-2 py-2'><span className='span'>My Latest</span> work</h1>
+
             {/* <img src="" alt="" /> */}
         </div>
         <div className="mywork-container container py-3">
